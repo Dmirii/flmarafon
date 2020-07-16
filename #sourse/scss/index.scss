@@ -1,0 +1,39 @@
+@import "reset_fp.scss";
+@import "fonts";
+@import "header";
+@import "var";
+
+
+
+
+// Оболочка start ///////////////////////////////////
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    &._loaded{
+    }
+}
+// Оболочка end ///////////////////////////////////
+
+
+/// Сeтка start ////////////////////
+._container{
+    max-width: $maxWidthContainer+px;
+    margin: 0 auto;
+    padding: 20px auto;
+
+    // @media (max-width: $md1+px) {
+    //     max-width: 970px;        
+    // }
+    // @media (max-width: $md2+px) {
+    //     max-width: 750px;        
+    // }
+    // @media (max-width: $md3+px) {
+    //     max-width: none;  
+    //     padding: 0 10px;      
+    // }
+}
+/// Сeтка end ////////////////////
