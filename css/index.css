@@ -722,7 +722,7 @@ h1, h2, h3, h4, h5, h6 {
 .submenu-page__item._active {
   opacity: 1;
   left: 100%;
-  z-index: 10;
+  z-index: 2;
 }
 
 .submenu-page__link {
